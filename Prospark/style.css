@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav .nav-left .logo1 img {
+  width: 40%;
+}
+header .nav .nav-center ul {
+  display: flex;
+  align-items: center;
+}
+header .nav .nav-center ul li {
+  padding-left: 20px;
+  list-style: none;
+  font-size: 18px;
+  font-family: "Heebo", sans-serif;
+  color: rgb(119, 120, 122);
+}
+header .nav .nav-center ul li:hover {
+  color: black;
+}
+header .nav .nav-right {
+  display: flex;
+  align-items: center;
+}
+header .nav .nav-right .btnone button {
+  padding: 20px 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(3, 3, 81);
+  border: none;
+}
+
+main #section1 {
+  text-align: center;
+  align-items: center;
+}
+main #section1 h1 {
+  font-family: "Heebo", sans-serif;
+}
+main #section1 .btntwo {
+  padding-top: 30px;
+}
+main #section1 .btntwo button {
+  padding: 20px 40px;
+  border-radius: 50px;
+  color: white;
+  background-color: #7158DC;
+  border: none;
+}
+main #section2 {
+  padding: 30px 50px 30px 30px;
+}
+main #section2 .all-texts {
+  text-align: center;
+  align-items: center;
+}
+main #section2 .all-texts h1 {
+  padding: 30px 0px;
+}
+main #section2 .all-texts p {
+  font-size: 23px;
+  color: #787C83;
+}
+main #section2 .all-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #section2 .all-box .box1 {
+  background-color: #F5F5F6;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-left: 20px;
+}
+main #section2 .all-box .box1 img {
+  width: 100%;
+}
+main #section2 .all-box .box1 .icons {
+  border-radius: 50%;
+  background-color: #F5F5F6;
+  border: 2px solid #7158DC;
+  text-align: center;
+  align-items: center;
+  padding: 20px 25px;
+  margin: 30px 140px;
+}
+main #section2 .all-box .box1 .icons i {
+  font-size: 30px;
+  color: #7158DC;
+}
+main #section2 .all-box .box1 h1 {
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  align-items: center;
+}
+main #section2 .all-box .box1 p {
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  color: #787C83;
+}
+main #section3 {
+  padding: 100px;
+  text-align: center;
+  align-items: center;
+}
+main #section3 h1 {
+  font-family: "Heebo", sans-serif;
+}
+main #section3 .btntwo {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+main #section3 .btntwo button {
+  padding: 20px 40px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(24, 18, 47);
+  border: none;
+}
+main #section3 .num02 {
+  font-family: "Heebo", sans-serif;
+  color: #18122F;
+}
+main #section3 .premium {
+  color: #787C83;
+  font-size: 25px;
+}
+main #section4 {
+  padding: 30px 50px;
+}
+main #section4 .all4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #section4 .all4 .num04 {
+  padding: 0px 30px 50px 30px;
+  background-color: #F5F5F6;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+main #section4 .all4 .num04 p {
+  padding: 30px 30px;
+  font-size: 23px;
+  text-align: center;
+}
+main #section4 .all4 .num04 img {
+  width: 100%;
+}
+main #section5 {
+  padding: 100px;
+  text-align: center;
+  align-items: center;
+}
+main #section5 .num02 {
+  font-size: 100px;
+  font-family: "Heebo", sans-serif;
+  color: #18122F;
+}
+main #section5 .premium {
+  color: #787C83;
+  font-size: 25px;
+}
+main #section6 .all-section6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F6;
+  border-radius: 30px;
+}
+main #section6 .all-section6 .left {
+  width: 50%;
+  padding: 20px 50px;
+}
+main #section6 .all-section6 .left h1 {
+  padding-bottom: 50px;
+}
+main #section6 .all-section6 .left p {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #999a9c;
+}
+main #section6 .all-section6 .left .btntwo {
+  padding-top: 30px;
+}
+main #section6 .all-section6 .left .btntwo button {
+  border-radius: 50px;
+  color: white;
+  background-color: #7158DC;
+  border: none;
+  font-size: 17px;
+}
+main #section6 .all-section6 .left .btntwo button:hover {
+  background-color: white;
+  color: #7158DC;
+  border: 2px solid #7158DC;
+}
+main #section6 .all-section6 .right {
+  width: 50%;
+  padding: 50px 0px 0px 0px;
+}
+main #section6 .all-section6 .right img {
+  width: 100%;
+  border-radius: 20px 0px 0px 0px;
+}
+main #section7 {
+  text-align: center;
+  padding: 30px 50px;
+  align-items: center;
+}
+main #section7 .all-section7 h1 {
+  padding-bottom: 20px;
+  font-family: "Heebo", sans-serif;
+}
+main #section7 .all-section7 p {
+  color: #787C83;
+  font-size: 20px;
+  padding: 0px 0px 20px 0px;
+  font-family: "Heebo", sans-serif;
+}
+main #section7 .all-section7 .twobtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+main #section7 .all-section7 .twobtns .btnsone1 {
+  align-items: center;
+}
+main #section7 .all-section7 .twobtns .btnsone1 button {
+  padding: 20px 50px;
+  border-radius: 30px;
+  background-color: #7158DC;
+  color: white;
+  border: 2px solid #7158DC;
+}
+main #section7 .all-section7 .twobtns .btnstwo2 {
+  align-items: center;
+}
+main #section7 .all-section7 .twobtns .btnstwo2 button {
+  padding: 20px 50px;
+  border-radius: 30px;
+  background-color: white;
+  color: #7158DC;
+  border: 2px solid #7158DC;
+}
+main .lasttext {
+  text-align: center;
+  padding: 25px 0px;
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+  color: #7158DC;
+}
+
+@media (max-width: 1440px) {
+  header {
+    padding: 30px 50px;
+  }
+  header .nav {
+    display: flex;
+  }
+  header .nav .nav-left {
+    width: 30%;
+  }
+  header .nav .nav-center {
+    width: 50%;
+  }
+  header .nav .nav-right {
+    width: 15%;
+  }
+  main #section1 {
+    padding: 100px;
+  }
+  main #section1 h1 {
+    font-size: 110px;
+  }
+  main #section2 .all-texts {
+    padding: 0px 100px 100px 100px;
+  }
+  main #section2 .all-texts h1 {
+    font-size: 60px;
+  }
+  main #section2 .all-box {
+    display: flex;
+  }
+  main #section3 .num02 {
+    font-size: 100px;
+  }
+  main #section3 h1 {
+    font-size: 60px;
+  }
+  main #section4 .all4 {
+    display: flex;
+  }
+  main #section6 {
+    padding: 30px 100px;
+  }
+  main #section6 .all-section6 {
+    display: flex;
+  }
+  main #section6 .all-section6 .left {
+    padding: 20px 50px;
+  }
+  main #section6 .all-section6 .left h1 {
+    font-size: 60px;
+  }
+  main #section6 .all-section6 .left .btntwo button {
+    padding: 20px 40px;
+  }
+  main #section7 .all-section7 h1 {
+    font-size: 60px;
+  }
+  main #section7 .all-section7 .twobtns {
+    padding: 50px 430px;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    padding: 30px 50px;
+  }
+  header .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header .nav .nav-left {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  header .nav .nav-center {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-left: 150px;
+  }
+  header .nav .nav-right {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-left: 250px;
+  }
+  main #section1 {
+    padding: 30px;
+  }
+  main #section1 h1 {
+    font-size: 80px;
+  }
+  main #section2 .all-texts {
+    padding: 0px 80px 100px 80px;
+  }
+  main #section2 .all-box {
+    display: flex;
+    flex-direction: column;
+  }
+  main #section4 .all4 {
+    display: flex;
+    flex-direction: column;
+  }
+  main #section6 {
+    padding: 30px 10px;
+  }
+  main #section6 .all-section6 {
+    display: flex;
+    flex-direction: column;
+  }
+  main #section6 .all-section6 .left {
+    padding: 20px 0px;
+  }
+  main #section6 .all-section6 .left h1 {
+    font-size: 60px;
+  }
+  main #section6 .all-section6 .left .btntwo button {
+    padding: 20px 30px;
+  }
+  main #section7 .all-section7 h1 {
+    font-size: 50px;
+  }
+  main #section7 .all-section7 .twobtns {
+    padding: 50px 100px;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    padding: 30px 30px;
+  }
+  header .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header .nav .nav-left {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  header .nav .nav-center {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+  header .nav .nav-right {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-left: 80px;
+  }
+  main #section1 {
+    padding: 10px;
+  }
+  main #section1 h1 {
+    font-size: 35px;
+  }
+  main #section2 .all-texts {
+    padding: 0px 0px 100px 0px;
+  }
+  main #section2 .all-texts h1 {
+    font-size: 35px;
+  }
+  main #section2 .all-box {
+    display: flex;
+    flex-direction: column;
+  }
+  main #section3 .num02 {
+    font-size: 80px;
+  }
+  main #section3 h1 {
+    font-size: 30px;
+  }
+  main #section4 .all4 {
+    display: flex;
+    flex-direction: column;
+  }
+  main #section6 {
+    padding: 30px 10px;
+  }
+  main #section6 .all-section6 {
+    display: flex;
+    flex-direction: column;
+  }
+  main #section6 .all-section6 .left {
+    padding: 20px 0px;
+  }
+  main #section6 .all-section6 .left h1 {
+    font-size: 35px;
+  }
+  main #section6 .all-section6 .left .btntwo button {
+    padding: 20px 17px;
+  }
+  main #section7 .all-section7 h1 {
+    font-size: 30px;
+  }
+  main #section7 .all-section7 .twobtns {
+    padding: 50px 0px;
+  }
+}
